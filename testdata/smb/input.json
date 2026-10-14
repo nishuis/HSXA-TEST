@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.12.1", "port": 445, "banner_base64": "/1NNQnIAAAAAGFPIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOVCBMTSAwLjEyAFNhbWJhIDQuMTUuMTMA", "encoding": "base64"},
+  {"ip": "10.20.12.2", "port": 445, "banner_base64": "/lNNQgAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOVCBMTSAwLjEyAA==", "encoding": "base64"},
+  {"ip": "10.20.12.3", "port": 445, "banner_base64": "TlRMTVNTUAABAAAABgIAAAAAAAA=", "encoding": "base64"}
+]

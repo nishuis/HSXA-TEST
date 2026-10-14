@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.13.1", "port": 5900, "banner": "RFB 003.008\r\n"},
+  {"ip": "10.20.13.2", "port": 5900, "banner_base64": "UkZCIDAwMy44ODkK", "encoding": "base64"},
+  {"ip": "10.20.13.3", "port": 5900, "banner_base64": "AAEC", "encoding": "base64"}
+]

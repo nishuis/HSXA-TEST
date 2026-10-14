@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.14.1", "port": 3389, "banner_base64": "AwAAEw7QAAASNAACAAAAAAAAAA==", "encoding": "base64"},
+  {"ip": "10.20.14.2", "port": 3389, "banner": "Cookie: mstshash=administrator"},
+  {"ip": "10.20.14.3", "port": 3389, "banner": "HTTP/1.1 200 OK\r\nServer: nginx/1.24.0\r\n\r\n"}
+]

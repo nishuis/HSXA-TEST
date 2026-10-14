@@ -1,0 +1,6 @@
+[
+  {"ip": "10.20.3.1", "port": 25, "banner": "220 mx1.example.com ESMTP Postfix"},
+  {"ip": "10.20.3.2", "port": 25, "banner": "220 mail.example.com ESMTP Exim 4.96 Ubuntu"},
+  {"ip": "10.20.3.3", "port": 587, "banner": "220 mail.example.com Microsoft ESMTP MAIL Service, Version: 10.0.14393.0 ready at Mon, 13 Oct 2025 08:15:22 +0800"},
+  {"ip": "10.20.3.4", "port": 25, "banner": "+OK Dovecot ready."}
+]

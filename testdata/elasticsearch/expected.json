@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.15.1", "port": 9200, "protocol": "Elasticsearch", "product": "Elasticsearch", "version": "8.11.1", "os_hint": "", "confidence": 0.95},
+  {"ip": "10.20.15.2", "port": 9200, "protocol": "Elasticsearch", "product": "Elasticsearch", "version": "", "os_hint": "", "confidence": 0.75},
+  {"ip": "10.20.15.3", "port": 9200, "protocol": "HTTP", "product": "nginx", "version": "1.24.0", "os_hint": "", "confidence": 0.9}
+]

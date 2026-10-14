@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.16.1", "port": 2375, "banner": "HTTP/1.1 200 OK\r\nApi-Version: 1.43\r\nDocker-Experimental: false\r\nOstype: linux\r\nContent-Type: application/json\r\nContent-Length: 1466\r\n\r\n{\"Platform\":{\"Name\":\"Docker Engine - Community\"},\"Version\":\"24.0.5\",\"ApiVersion\":\"1.43\",\"GitCommit\":\"ced0996\",\"Os\":\"linux\"}"},
+  {"ip": "10.20.16.2", "port": 2375, "banner": "HTTP/1.1 200 OK\r\nApi-Version: 1.41\r\nContent-Type: text/plain; charset=utf-8\r\nContent-Length: 2\r\n\r\nOK"},
+  {"ip": "10.20.16.3", "port": 8080, "banner": "HTTP/1.1 404 page not found\r\nServer: nginx/1.24.0\r\n\r\n"}
+]

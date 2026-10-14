@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.15.1", "port": 9200, "banner": "HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=UTF-8\r\nContent-Length: 545\r\n\r\n{\"name\":\"es01\",\"cluster_name\":\"docker-cluster\",\"cluster_uuid\":\"x7c9\",\"version\":{\"number\":\"8.11.1\",\"build_flavor\":\"default\",\"lucene_version\":\"9.8.0\"},\"tagline\":\"You Know, for Search\"}"},
+  {"ip": "10.20.15.2", "port": 9200, "banner": "HTTP/1.1 200 OK\r\nX-elastic-product: Elasticsearch\r\nContent-Type: application/json\r\nContent-Length: 59\r\n\r\n{\"error\":{\"reason\":\"no handler found for uri [/foo]\"}}"},
+  {"ip": "10.20.15.3", "port": 9200, "banner": "HTTP/1.1 404 Not Found\r\nServer: nginx/1.24.0\r\n\r\n"}
+]

@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.7.1", "port": 6379, "protocol": "Redis", "product": "Redis", "version": "", "os_hint": "", "confidence": 0.7},
+  {"ip": "10.20.7.2", "port": 6379, "protocol": "Redis", "product": "Redis", "version": "7.2.3", "os_hint": "", "confidence": 0.9},
+  {"ip": "10.20.7.3", "port": 6379, "protocol": "Redis", "product": "Redis", "version": "", "os_hint": "", "confidence": 0.7}
+]

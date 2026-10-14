@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.16.1", "port": 2375, "protocol": "Docker API", "product": "Docker Engine", "version": "24.0.5", "os_hint": "", "confidence": 0.95},
+  {"ip": "10.20.16.2", "port": 2375, "protocol": "Docker API", "product": "Docker Engine", "version": "", "os_hint": "", "confidence": 0.75},
+  {"ip": "10.20.16.3", "port": 8080, "protocol": "HTTP", "product": "nginx", "version": "1.24.0", "os_hint": "", "confidence": 0.9}
+]

@@ -1,0 +1,6 @@
+[
+  {"ip": "10.20.3.1", "port": 25, "protocol": "SMTP", "product": "Postfix", "version": "", "os_hint": "", "confidence": 0.7},
+  {"ip": "10.20.3.2", "port": 25, "protocol": "SMTP", "product": "Exim", "version": "4.96", "os_hint": "Ubuntu", "confidence": 0.95},
+  {"ip": "10.20.3.3", "port": 587, "protocol": "SMTP", "product": "Microsoft Exchange", "version": "10.0.14393.0", "os_hint": "", "confidence": 0.9},
+  {"ip": "10.20.3.4", "port": 25, "protocol": "POP3", "product": "Dovecot", "version": "", "os_hint": "", "confidence": 0.7}
+]

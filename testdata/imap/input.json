@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.5.1", "port": 143, "banner": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ STARTTLS AUTH=PLAIN] Dovecot ready."},
+  {"ip": "10.20.5.2", "port": 993, "banner": "* OK [CAPABILITY IMAP4rev1] Cyrus IMAP4 v2.4.24 server ready"},
+  {"ip": "10.20.5.3", "port": 143, "banner": "* BYE Autologout; idle for too long"}
+]

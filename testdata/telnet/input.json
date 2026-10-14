@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.6.1", "port": 23, "banner_base64": "//0Y//0g//0j//0n", "encoding": "base64"},
+  {"ip": "10.20.6.2", "port": 23, "banner": "Ubuntu 22.04.3 LTS\r\nlogin: "},
+  {"ip": "10.20.6.3", "port": 2323, "banner": "220 ProFTPD 1.3.7 Server ready."}
+]

@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.13.1", "port": 5900, "protocol": "VNC", "product": "VNC", "version": "3.8", "os_hint": "", "confidence": 0.9},
+  {"ip": "10.20.13.2", "port": 5900, "protocol": "VNC", "product": "VNC", "version": "3.889", "os_hint": "", "confidence": 0.9},
+  {"ip": "10.20.13.3", "port": 5900, "protocol": "VNC", "product": "", "version": "", "os_hint": "", "confidence": 0.35}
+]

@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.7.1", "port": 6379, "banner": "-NOAUTH Authentication required.\r\n"},
+  {"ip": "10.20.7.2", "port": 6379, "banner": "# Server\r\nredis_version:7.2.3\r\nredis_git_sha1:00000000\r\nredis_mode:standalone\r\n"},
+  {"ip": "10.20.7.3", "port": 6379, "banner": "+PONG\r\n"}
+]

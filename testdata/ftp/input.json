@@ -1,0 +1,6 @@
+[
+  {"ip": "10.20.2.1", "port": 21, "banner": "220 ProFTPD 1.3.7 Server (Debian) [::ffff:10.0.0.21]"},
+  {"ip": "10.20.2.2", "port": 21, "banner": "220 (vsFTPd 3.0.5)"},
+  {"ip": "10.20.2.3", "port": 21, "banner": "220-FileZilla Server 1.5.1\r\n220 Please visit https://filezilla-project.org/"},
+  {"ip": "10.20.2.4", "port": 21, "banner": "220 mail.example.com ESMTP Postfix (Ubuntu)"}
+]

@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.11.1", "port": 11211, "banner": "VERSION 1.6.21\r\n"},
+  {"ip": "10.20.11.2", "port": 11211, "banner": "STAT version 1.6.17\r\nSTAT pid 1234\r\nSTAT uptime 86400\r\n"},
+  {"ip": "10.20.11.3", "port": 11211, "banner": "ERROR\r\n"}
+]

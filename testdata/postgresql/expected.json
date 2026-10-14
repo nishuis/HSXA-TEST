@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.9.1", "port": 5432, "protocol": "PostgreSQL", "product": "PostgreSQL", "version": "16.1", "os_hint": "Debian", "confidence": 0.95},
+  {"ip": "10.20.9.2", "port": 5432, "protocol": "PostgreSQL", "product": "PostgreSQL", "version": "14.5", "os_hint": "Ubuntu", "confidence": 0.95},
+  {"ip": "10.20.9.3", "port": 5432, "protocol": "PostgreSQL", "product": "", "version": "", "os_hint": "", "confidence": 0.55}
+]

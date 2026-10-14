@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.4.1", "port": 110, "protocol": "POP3", "product": "Dovecot", "version": "", "os_hint": "", "confidence": 0.7},
+  {"ip": "10.20.4.2", "port": 110, "protocol": "POP3", "product": "Qpopper", "version": "4.0.5", "os_hint": "", "confidence": 0.9},
+  {"ip": "10.20.4.3", "port": 110, "protocol": "POP3", "product": "", "version": "", "os_hint": "", "confidence": 0.6}
+]

@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.4.1", "port": 110, "banner": "+OK Dovecot ready."},
+  {"ip": "10.20.4.2", "port": 110, "banner": "+OK Qpopper (version 4.0.5) at pop.example.com starting."},
+  {"ip": "10.20.4.3", "port": 110, "banner": "-ERR [AUTH] Authentication failed."}
+]

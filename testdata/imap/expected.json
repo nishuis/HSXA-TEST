@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.5.1", "port": 143, "protocol": "IMAP", "product": "Dovecot", "version": "", "os_hint": "", "confidence": 0.7},
+  {"ip": "10.20.5.2", "port": 993, "protocol": "IMAP", "product": "Cyrus IMAP", "version": "2.4.24", "os_hint": "", "confidence": 0.9},
+  {"ip": "10.20.5.3", "port": 143, "protocol": "IMAP", "product": "", "version": "", "os_hint": "", "confidence": 0.55}
+]

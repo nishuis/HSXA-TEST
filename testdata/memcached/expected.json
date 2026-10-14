@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.11.1", "port": 11211, "protocol": "Memcached", "product": "Memcached", "version": "1.6.21", "os_hint": "", "confidence": 0.9},
+  {"ip": "10.20.11.2", "port": 11211, "protocol": "Memcached", "product": "Memcached", "version": "1.6.17", "os_hint": "", "confidence": 0.9},
+  {"ip": "10.20.11.3", "port": 11211, "protocol": "Memcached", "product": "Memcached", "version": "", "os_hint": "", "confidence": 0.65}
+]

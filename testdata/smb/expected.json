@@ -1,0 +1,5 @@
+[
+  {"ip": "10.20.12.1", "port": 445, "protocol": "SMB", "product": "Samba", "version": "4.15.13", "os_hint": "", "confidence": 0.9},
+  {"ip": "10.20.12.2", "port": 445, "protocol": "SMB", "product": "Microsoft Windows", "version": "", "os_hint": "Windows", "confidence": 0.8},
+  {"ip": "10.20.12.3", "port": 445, "protocol": "SMB", "product": "", "version": "", "os_hint": "", "confidence": 0.55}
+]

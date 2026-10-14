@@ -1,0 +1,6 @@
+[
+  {"ip": "10.20.8.1", "port": 3306, "banner_base64": "SQAAAAo4LjAuMzIAAQAAAGFiY2RlZmdoAP/3IQIA/4EVAAAAAAAAAAAAAGlqa2xtbm9wcXJzAG15c3FsX25hdGl2ZV9wYXNzd29yZAA=", "encoding": "base64"},
+  {"ip": "10.20.8.2", "port": 3306, "banner_base64": "SQAAAAo1LjcuNDQAAQAAAGFiY2RlZmdoAP/3IQIA/4EVAAAAAAAAAAAAAGlqa2xtbm9wcXJzAG15c3FsX25hdGl2ZV9wYXNzd29yZAA=", "encoding": "base64"},
+  {"ip": "10.20.8.3", "port": 3306, "banner_base64": "cwAAAAo1LjUuNS0xMC42LjEyLU1hcmlhREItMToxMC42LjEyK21hcmlhfnVidW50dTIyMDQAAQAAAGFiY2RlZmdoAP/3IQIA/4EVAAAAAAAAAAAAAGlqa2xtbm9wcXJzAG15c3FsX25hdGl2ZV9wYXNzd29yZAA=", "encoding": "base64"},
+  {"ip": "10.20.8.4", "port": 3306, "banner": "HTTP/1.1 200 OK\r\nServer: nginx/1.24.0\r\n\r\n"}
+]
