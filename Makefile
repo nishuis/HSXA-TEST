@@ -9,7 +9,7 @@ LDFLAGS := -s -w \
 	-X $(MODULE)/internal/version.GitCommit=$(COMMIT) \
 	-X $(MODULE)/internal/version.BuildDate=$(DATE)
 
-.PHONY: all build test cover fmt vet lint check acceptance docker demo run clean help
+.PHONY: all build test cover bench fmt vet lint check acceptance docker demo run clean help
 
 all: check build ## Format check, vet, tests, then build both binaries.
 
@@ -22,6 +22,12 @@ test: ## Run the full test suite.
 
 cover: ## Run tests with coverage for the engine packages.
 	go test -cover ./internal/...
+
+bench: ## Run the identification benchmarks.
+	go test -run '^$$' -bench . -benchmem ./internal/engine/
+
+fuzz: ## Short fuzz run over the decode layer.
+	go test -fuzz=FuzzDecodeText -fuzztime=20s ./internal/engine/decode/
 
 fmt: ## List files that are not gofmt-clean.
 	gofmt -l .
