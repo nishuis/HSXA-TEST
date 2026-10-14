@@ -26,10 +26,12 @@ func Builtin() (*rule.Registry, error) {
 	return reg, nil
 }
 
-// allSets lists the built-in rule sets. The order also defines the metadata
-// order reported by GET /api/v1/meta.
+// allSets lists the built-in rule sets in the order of the protocol table of
+// plan.md §2.1; the order also defines the metadata order reported by
+// GET /api/v1/meta.
 func allSets() []*rule.Set {
 	return []*rule.Set{
+		// Text banners.
 		sshSet(),
 		ftpSet(),
 		smtpSet(),
@@ -37,15 +39,18 @@ func allSets() []*rule.Set {
 		imapSet(),
 		telnetSet(),
 		redisSet(),
+		// HTTP family.
 		httpSet(),
 		elasticsearchSet(),
 		dockerAPISet(),
+		// Binary handshakes.
 		mysqlSet(),
 		postgresqlSet(),
 		mongodbSet(),
-		memcachedSet(),
 		smbSet(),
 		vncSet(),
 		rdpSet(),
+		// Memory and middleware.
+		memcachedSet(),
 	}
 }

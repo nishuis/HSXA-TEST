@@ -1,0 +1,10 @@
+{
+  "records": [
+    {"ip": "10.40.0.1", "port": 22, "banner": ""},
+    {"ip": "10.40.0.2", "port": 22, "banner": "%%% not base64 %%%", "encoding": "base64"},
+    {"ip": "10.40.0.3", "port": 9999, "banner": "\u0000\u0001\u0002\u0003 binary garbage \ufffd"},
+    {"ip": "10.40.0.4", "port": 445, "banner_base64": "/lNNQgAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOVCBMTSAwLjEyAA==", "encoding": "base64"},
+    {"ip": "10.40.0.5", "port": 443, "banner_base64": "FgMBAC8BAAArAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAv", "encoding": "base64"},
+    {"ip": "10.40.0.6", "port": 22, "banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.4"}
+  ]
+}
