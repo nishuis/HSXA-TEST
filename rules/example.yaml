@@ -1,0 +1,40 @@
+# Example external rule overlay (FR-11).
+#
+# Every *.yaml file of BFP_RULES_DIR is merged over the built-in rules at
+# start-up: a rule whose name already exists replaces it, a new name is added.
+# A broken file makes the server refuse to start rather than serve with a
+# half-applied overlay.
+#
+# Schema:
+#   protocol:       the protocol the rules belong to (a new protocol extends
+#                   the supported list)
+#   ports:          extra port priors for the protocol
+#   protocol_rules: signature rules, matched first
+#   product_rules:  product rules, matched first-hit by priority
+#
+# Rule fields:
+#   name            unique rule name inside its group
+#   match_type      prefix | contains | regex | binary
+#   pattern         literal text, a Go RE2 regular expression, or a byte
+#                   pattern with \xHH escapes for binary
+#   offset          byte offset for match_type binary
+#   product         canonical product name on match
+#   version_group   1-based capture group holding the version
+#   os_group        1-based capture group holding the OS hint
+#   os_hint         literal OS hint
+#   weight          confidence contribution (protocol: ~0.60, product: ~0.15)
+#   priority        higher runs first
+#
+# Note: a regex cannot compare raw bytes at or above 0x80 (Go regexes match
+# runes), so binary signatures must use match_type binary or contains.
+
+protocol: HTTP
+
+product_rules:
+  # Caddy does not send a Server header by default, but says so when asked.
+  - name: http-server-caddy
+    match_type: regex
+    pattern: '(?i)server:\s*Caddy'
+    product: Caddy
+    weight: 0.10
+    priority: 205

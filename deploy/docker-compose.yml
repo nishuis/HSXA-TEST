@@ -1,0 +1,9 @@
+# The stack lives in the repository root so that "docker compose up -d" works
+# from there (plan.md §5.3). This file exists for the deploy/ layout of
+# plan.md §4.1 and includes the canonical definition.
+#
+#   docker compose -f deploy/docker-compose.yml up -d
+name: hsxa-banner-fingerprint
+
+include:
+  - ../docker-compose.yml
